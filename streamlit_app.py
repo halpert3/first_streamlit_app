@@ -11,7 +11,7 @@ streamlit.text('Pancakes')
 streamlit.text('Hash browns')
 
 streamlit.header('🍌Banana Smoothies Available + Your Choice of Additional Fruit 🫐🍓')
-streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index))
+streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Lemon', 'Strawberries'])
 
 
 streamlit.dataframe(my_fruit_list)
